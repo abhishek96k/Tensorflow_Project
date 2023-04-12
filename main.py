@@ -102,4 +102,4 @@ tfjs.converters.convert_tf_saved_model(
     './saved_tf_models/my_model', './saved_js_models/my_model_1')
 
 # Convert the TF model from the "model" variable above to a TFJS model
-tfjs.converters.save_keras_model(dnn_model, './saved_tfjs_models/my_model_2')
+tfjs.converters.save_keras_model(dnn_model, './saved_js_models/my_model_2')
